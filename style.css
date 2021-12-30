@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  background-color: rgb(240, 246, 252);
+  box-sizing: border-box;
+}
+label {
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 25px;
+  color: rgb(124, 124, 124);
+}
+input {
+  display: block;
+  border: none;
+  background-color: #0001;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+input[type="color"] {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  max-width: 50px;
+  height: 40px;
+}
+
+.button-creator {
+  display: grid;
+  gap: 30px;
+  padding: 30px 4px;
+  grid-template-columns: 300px 1fr;
+  overflow-x: scroll;
+  margin: 25px;
+}
+.button-creator::-webkit-scrollbar {
+  width: 18px;
+}
+
+.button-creator::-webkit-scrollbar-thumb {
+  background: rgb(28, 114, 243);
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+
+.button-creator::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+#controles {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: .875rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px 0 #0001;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+}
+
+.css {
+  font-family: monospace;
+  color: #333;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: inset  0px 0px 7px #0003 ;
+}
+
+.css span {
+  display: block;
+  margin-bottom: .5rem;
+}
